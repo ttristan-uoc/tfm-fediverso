@@ -31,6 +31,7 @@ if __name__ == "__main__":
     parser.add_argument('--output', default='fediverso_graph.json', help='Path to save the output graph')
     args = parser.parse_args()
 
+    # Web Crawler para obtener aristas
     connections = cons.build_fediverso_graph(args.input, args.output)
 
     # Limpiamos nodos
