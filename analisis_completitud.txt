@@ -1,0 +1,173 @@
+ESTADÍSTICAS GENERALES:
+Total de instancias en el dataset original: 24815
+Instancias con datos recopilados: 14012
+Porcentaje de completitud: 56.47%
+
+ESTADÍSTICAS POR SOFTWARE:
+Software             Total      Con datos  Porcentaje
+--------------------------------------------------
+mastodon             15915      11380      71.50%
+wordpress            2695       30         1.11%
+peertube             974        456        46.82%
+misskey              948        894        94.30%
+ghost                569        0          0.00%
+writefreely          493        0          0.00%
+lemmy                470        0          0.00%
+pleroma              355        352        99.15%
+pixelfed             307        0          0.00%
+akkoma               252        250        99.21%
+sharkey              220        214        97.27%
+friendica            166        161        96.99%
+snac                 120        0          0.00%
+owncast              108        0          0.00%
+mobilizon            107        0          0.00%
+gancio               97         0          0.00%
+hubzilla             70         0          0.00%
+hometown             69         53         76.81%
+funkwhale            61         0          0.00%
+iceshrimp            61         60         98.36%
+firefish             57         54         94.74%
+diaspora             50         0          0.00%
+cherrypick           45         44         97.78%
+bookwyrm             43         43         100.00%
+hollo                34         0          0.00%
+iceshrimpnet         32         0          0.00%
+suttydistributedpress 30         0          0.00%
+microblogpub         29         0          0.00%
+nodebb               27         0          0.00%
+plume                27         0          0.00%
+postmarks            25         0          0.00%
+forgejo              24         0          0.00%
+mitra                22         21         95.45%
+mbin                 16         0          0.00%
+kmyblue              13         0          0.00%
+drupal               11         0          0.00%
+ktistec              11         0          0.00%
+piefed               11         0          0.00%
+redmatrix            11         0          0.00%
+takahe               11         0          0.00%
+betula               10         0          0.00%
+birdsitelive         8          0          0.00%
+forte                8          0          0.00%
+meisskey             8          0          0.00%
+gnusocial            7          0          0.00%
+yojoart              7          0          0.00%
+socialhome           6          0          0.00%
+bovine               5          0          0.00%
+emissary             5          0          0.00%
+gitea                5          0          0.00%
+calckey              4          0          0.00%
+fedipage             4          0          0.00%
+foundkey             4          0          0.00%
+honk                 4          0          0.00%
+neodb                4          0          0.00%
+smithereen           4          0          0.00%
+wafrn                4          0          0.00%
+yoiyami              4          0          0.00%
+dolphin              3          0          0.00%
+goblin               3          0          0.00%
+nextcloud social     3          0          0.00%
+activitypods         2          0          0.00%
+bonfire compatible mastodon akkoma 2          0          0.00%
+catodon              2          0          0.00%
+elgg                 2          0          0.00%
+guppe groups         2          0          0.00%
+hatsu                2          0          0.00%
+ibis                 2          0          0.00%
+immers space         2          0          0.00%
+instancesoftwarename 2          0          0.00%
+katewtf  11ty        2          0          0.00%
+pawkey               2          0          0.00%
+truefans             2          0          0.00%
+unknown              2          0          0.00%
+vernissage           2          0          0.00%
+wildebeest           2          0          0.00%
+3o14                 1          0          0.00%
+98gravity electro    1          0          0.00%
+acropolis            1          0          0.00%
+activipypub          1          0          0.00%
+activitypub          1          0          0.00%
+activitypubfirebase  1          0          0.00%
+ap39sho              1          0          0.00%
+apex example         1          0          0.00%
+areionskey           1          0          0.00%
+awakari              1          0          0.00%
+boldcode             1          0          0.00%
+bugle                1          0          0.00%
+careercupid          1          0          0.00%
+castlingclub         1          0          0.00%
+citizen4             1          0          0.00%
+clanspub             1          0          0.00%
+clipsymphony activitypub service 1          0          0.00%
+cloudsyvinet         1          0          0.00%
+codename merp        1          0          0.00%
+coma                 1          0          0.00%
+comal                1          0          0.00%
+d250g2               1          0          0.00%
+dailyrucks           1          0          0.00%
+divedb               1          0          0.00%
+dumpsterfederation   1          0          0.00%
+ekomik gallery       1          0          0.00%
+elizaandthemoneymakers 1          0          0.00%
+fchannel             1          0          0.00%
+fedibird             1          0          0.00%
+fedichatbot          1          0          0.00%
+fedifolio            1          0          0.00%
+finalboss            1          0          0.00%
+flipboard            1          0          0.00%
+foxhole              1          0          0.00%
+g105b                1          0          0.00%
+goodnews             1          0          0.00%
+groundpolismilkey    1          0          0.00%
+gush                 1          0          0.00%
+hashtagplace         1          0          0.00%
+hiddenphox           1          0          0.00%
+incestoma            1          0          0.00%
+incise               1          0          0.00%
+kbin                 1          0          0.00%
+kiiteitte            1          0          0.00%
+kky3ka               1          0          0.00%
+kotori               1          0          0.00%
+kroeg                1          0          0.00%
+likestream           1          0          0.00%
+lockpick             1          0          0.00%
+loops                1          0          0.00%
+lotide               1          0          0.00%
+microdotblog         1          0          0.00%
+momostr              1          0          0.00%
+monkeecloud          1          0          0.00%
+mostr                1          0          0.00%
+na                   1          0          0.00%
+ocamlot              1          0          0.00%
+ohagi                1          0          0.00%
+owlblogs             1          0          0.00%
+p3k                  1          0          0.00%
+paulkinlanme         1          0          0.00%
+pelicanactivitypub   1          0          0.00%
+petitchambre         1          0          0.00%
+pichuchentwwebserver 1          0          0.00%
+podcastpeformance    1          0          0.00%
+postgrunge           1          0          0.00%
+psh                  1          0          0.00%
+quolibet             1          0          0.00%
+rayven               1          0          0.00%
+riverscape           1          0          0.00%
+sabach discord server list 1          0          0.00%
+scrapblog            1          0          0.00%
+sequel               1          0          0.00%
+shuttlecraft         1          0          0.00%
+site                 1          0          0.00%
+squidcity            1          0          0.00%
+takesama             1          0          0.00%
+tanukey              1          0          0.00%
+tiofomentofedversebot 1          0          0.00%
+tokoroten            1          0          0.00%
+transit fedilerts    1          0          0.00%
+trashposs            1          0          0.00%
+tvmarks              1          0          0.00%
+verces               1          0          0.00%
+wallog               1          0          0.00%
+webfan               1          0          0.00%
+webfingersplitdomaincanary 1          0          0.00%
+wellesley            1          0          0.00%
+wxwclub              1          0          0.00%
