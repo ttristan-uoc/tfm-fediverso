@@ -6,6 +6,6 @@ Ejecutando main.py se obtienen todos los resultados. Las funciones auxiliares se
 
 En requirements.txt se encuentran las librerías que es necesario tener instaladas.
 
-En la carpeta /data/ se recogen los datasets extraídos de fediverse.observer e instances.social, como JSON y como CSV, así como el resultado de su combinación. 
+En la carpeta /data/ se recogen los datasets extraídos de fediverse.observer e instances.social, como JSON y como CSV, así como el resultado de su combinación. También se encuentran todos las métricas de centralidad obtenidas de las 14012 instancias.
 
 En la carpeta /plots/ están todos los gráficos generados durante la ejecución. 
