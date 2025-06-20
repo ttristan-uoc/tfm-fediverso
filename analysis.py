@@ -2217,17 +2217,3 @@ class FediverseAnalyzer:
 
         return nodf
 
-nodes_file = "data/nodes_cleaned.csv"
-edges_file = "fediverso_graph.json"
-
-analyzer = FediverseAnalyzer(nodes_file, edges_file)
-analyzer.load_instances()
-analyzer.build_graph_from_json()
-#analyzer.print_basic_stats()
-#analyzer.calculate_and_save_centrality_metrics(output_file="centrality_metrics.csv")
-#analyzer.top_metrics(metrics_file='centrality_metrics.csv', top_n=20)
-#analyzer.detect_and_compare_communities(output_file='community_comparison.csv', num_runs=3)
-#analyzer.plot_centrality_distributions(metrics_file='centrality_metrics.csv', output_dir='plots/')
-#analyzer.plot_betweenness_degree_correlation(metrics_file='centrality_metrics.csv', output_file='plots/betweenness_degree_correlation.png')
-#analyzer.visualize_adjacency_matrix(output_file="matriz_adyacencia.png", colormap='custom', sort_by='degree', show_tick_labels=False)
-analyzer.nodf()
