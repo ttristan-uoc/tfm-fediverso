@@ -52,20 +52,20 @@ if __name__ == "__main__":
     analyzer.build_graph_from_json()    # Construimos el grafo a partir de las aristas
     analyzer.print_basic_stats()        # Estadísticas básicas
     
-    # Matriz de adyacencia
+    # Análisis macroscópico
     analyzer.analyze_macroscopic()
     analyzer.visualize_adjacency_matrix(output_file="adjacency_matrix.png", top_instances=None,
                                         colormap='viridis', width=1000, height=900, show_tick_labels=False,
                                         sort_by='degree')
     
-    # Obtener métricas de centralidad y sus plots
+    # Análisis microscópico: obtener métricas de centralidad y sus plots
     analyzer.analyze_microscopic()
     analyzer.calculate_and_save_centrality_metrics(output_file="centrality_metrics.csv")
     analyzer.top_metrics(metrics_file='centrality_metrics.csv', top_n=20)
     analyzer.plot_centrality_distributions(metrics_file='centrality_metrics.csv', output_dir='plots/')
     analyzer.plot_betweenness_degree_correlation(metrics_file='centrality_metrics.csv', output_file='plots/betweenness_degree_correlation.png')
     
-    # Obtener y comparar comunidades
+    # Análisis mesoscópico: obtener y comparar comunidades
     analyzer.analyze_mesoscopic()
     analyzer.detect_and_compare_communities(output_file='community_comparison.csv', num_runs=3)
     analyzer.nodf()
