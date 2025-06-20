@@ -169,7 +169,3 @@ def data_exploration(data):
     print("\nPrimeras filas:\n", data.head())
     print("\nValores nulos:\n", data.isnull().sum())
 
-
-data_exploration(pd.read_csv('data/fediverse_observer_df.csv'))
-data_exploration(pd.read_csv('data/instances_social_df.csv'))
-data_exploration(pd.read_csv('data/nodes_cleaned.csv'))
