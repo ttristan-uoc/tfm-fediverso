@@ -1,5 +1,5 @@
 import instances_list as ins
-from geoloc import instances_map
+import geoloc
 import combination as comb
 import argparse
 import connections as cons
@@ -18,8 +18,9 @@ if __name__ == "__main__":
     ins.data_exploration(fediverse_observer_df)
 
     # Geolocalización de las instancias
-    instances_map(fediverse_observer_df)
-
+    geoloc.instances_map(fediverse_observer_df)
+    geoloc.instances_heatmap(fediverse_observer_df)
+    
     # Unión de los datasets
     combined_data = comb.data_combination(instances_social_df, fediverse_observer_df)
     comb.stats(combined_data)
