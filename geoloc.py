@@ -73,7 +73,7 @@ def instances_map(df):
 
     # Guardar como PNG
     plt.tight_layout()
-    plt.savefig("fediverso_mapa.png", dpi=500)
+    plt.savefig("plots/fediverso_mapa.png", dpi=500)
     plt.close()
 
 
@@ -105,4 +105,4 @@ def instances_heatmap(df):
     )
 
     # Guardar como HTML (interactivo)
-    fig.write_html("fediverso_mapa_calor_pais.html")
+    fig.write_html("plots/fediverso_mapa_calor_pais.html")
