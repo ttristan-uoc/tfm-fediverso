@@ -67,7 +67,7 @@ if __name__ == "__main__":
     
     # Análisis mesoscópico: obtener y comparar comunidades
     analyzer.analyze_mesoscopic()
-    analyzer.detect_and_compare_communities(output_file='data/community_comparison.csv', num_runs=3)
+    analyzer.detect_and_compare_communities(num_runs=3)
     analyzer.nodf()
 
 
