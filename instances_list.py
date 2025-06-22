@@ -13,7 +13,7 @@ def get_instances_social_json():
 
     # Token
     headers = {
-        "Authorization": "Bearer qY7KfUZ7lFrNQGDImQCfFHbdaPly4yXbX97IPCOlINJXY7BOoAdxA9zfl1xoGAzIFia3hSwLgOQbsQkICd4uoRa8UV1bwMWZBusx8UvN8UTvSc5Uj8BRuaZbgfpE34yy"
+        "Authorization": "Bearer" # Insertar aquí su token
     }
     params = {
         "count": 0  # 0 para obtener todas las instancias
